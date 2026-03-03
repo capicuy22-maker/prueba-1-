@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora Pro Max</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h2>Calculadora</h2>
+
+<button id="modoBtn">🌙 Cambiar modo</button>
+
+<input type="number" id="num1" placeholder="Número 1">
+<input type="number" id="num2" placeholder="Número 2">
+
+<div class="botones">
+<button onclick="operar('+')">+</button>
+<button onclick="operar('-')">-</button>
+<button onclick="operar('*')">*</button>
+<button onclick="operar('/')">/</button>
+</div>
+
+<h3 id="resultado">Resultado:</h3>
+
+<hr>
+
+<h2>Historial</h2>
+<ul id="historial"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
